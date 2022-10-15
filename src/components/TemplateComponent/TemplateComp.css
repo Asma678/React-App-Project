@@ -1,0 +1,90 @@
+.TempC {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .TempC1 {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .TempH {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    margin-bottom: 2rem;
+  }
+  
+  .topAd {
+    flex: 0.3;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .TempC1 hr {
+    width: 100%;
+  }
+  
+  .LatestA {
+    display: flex;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+    gap: 2rem;
+  }
+  .LatestA img {
+    width: 20vw;
+    height: 31.3vh;
+    border-radius: 10px;
+  }
+  
+  .LatestA {
+    text-align: left;
+  }
+  .loadContainer {
+    display: flex;
+    width: fit-content;
+    gap: 0.6rem;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+  }
+  
+  .pageAd {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+  }
+  
+  @media all and (max-width: 420px) {
+    .TempC {
+      flex-direction: column;
+    }
+    .TempC  {
+      padding: 0 1rem;
+    }
+    .TempH {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: left;
+      border-bottom: 2px solid orange;
+      margin-bottom: 2rem;
+    }
+    .TempH h1 {
+      margin-bottom: 0;
+    }
+    .TempC1 hr {
+      display: none;
+    }
+    .pageAd {
+      display: none;
+    }
+    .LatestA {
+      gap: 1rem;
+    }
+  }
